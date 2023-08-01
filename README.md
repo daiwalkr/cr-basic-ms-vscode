@@ -34,6 +34,10 @@ Added better code folding.
 Added additional new data types.
 ### 0.0.6
 Added GRANITE data loggers.
+
+### Current maintainers
+
+- [Gary Roberts (Daiwalkr)](mailto:gtroberts@campbellsci.com)
 ---
 
 **Enjoy!**

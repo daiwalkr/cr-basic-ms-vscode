@@ -1,7 +1,5 @@
 # cr-basic-ms-vscode README
 
-[![CRBasic MS VSCode v0.0.6 badge][changelog-badge]][changelog] [![Version 0.0.6 Badge][version-badge]][changelog]
-
 ## Features
 
 Allows for syntax highlighting of CRBasic files for Campbell Scientific Inc.'s newer data logger programs.
@@ -43,4 +41,4 @@ Added GRANITE data loggers.
 ---
 
 [changelog]: ./CHANGELOG.md
-[changelog-badge]: https://img.shields.io/badge/CRBasic-ms-vscode%20a%20CRBasic-ms-vscode%20v0.0.6-%23E05735
+

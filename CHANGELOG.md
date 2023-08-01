@@ -25,3 +25,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Initial release of CRBasic Language Support for VSCode.  
+
+[unreleased]: https://github.com/daiwalkr/cr-basic-ms-vscode/compare/v0.0.5...HEAD

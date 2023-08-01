@@ -13,7 +13,7 @@
 		"keywords": {
 			"patterns": [
 				{
-                    "match": "\\b(StationName|Status|Alias|Units|As|And|BeginProg|EndProg|Call|CallTable|Case|Case Is|Case Else|Is|Const|ConstTable|EndConstTable|Debug|DebugBreak|Dim|DataTable|EndTable|Exit|DisplayMenu|EndMenu|Do|ExitDo|Loop|Else|ElseIf|For|To|Next|ExitFor|Step|Function|EndFunction|Return|ExitFunction|If|Then|EndIf|End|#If|#ElseIf|#Else|#EndIf|#IfDef|Include|Or|Scan|NextScan|ExitScan|ContinueScan|Select|Case|EndSelect|SequentialMode|SlowSequence|EndSequence|Sub|EndSub|ExitSub|SubScan|NextSubScan|SubMenu|EndSubMenu|While|Wend|Xor)\\b",
+                    "match": "\\b(StationName|Status|Alias|Units|As|And|BeginProg|EndProg|Call|CallTable|Case|Case Is|Case Else|Is|Const|ConstTable|EndConstTable|Debug|DebugBreak|Dim|DataTable|EndTable|Exit|DisplayMenu|EndMenu|Do|ExitDo|Loop|Else|ElseIf|For|To|Next|ExitFor|Step|Function|EndFunction|Return|ExitFunction|If|Then|EndIf|End|#If|#ElseIf|#Else|#EndIf|#IfDef|#UnDef|Include|Or|Scan|NextScan|ExitScan|ContinueScan|Select|Case|EndSelect|SequentialMode|SlowSequence|EndSequence|Sub|EndSub|ExitSub|SubScan|NextSubScan|SubMenu|EndSubMenu|While|Wend|Xor)\\b",
       				"name": "keyword.control.cr-basic"
   				},
   				{
@@ -33,7 +33,7 @@
       				"name": "support.function.cr-basic"
   				},
   				{
-                    "match": "\\b(AND|OR|NOT|=|<>|>|<|>=|<=|&|>>|<<|&=|@|!)\\b",
+                    "match": "\\b(^|+|-|*|/|=|<>|>|<|>=|<=|>>|<<|&|\\|*=|+=|-=|/=|\\=|^=|&=|AND|IMP|INTDV|MOD|NOT|OR|XOR|@|!)\\b",
       				"name": "keyword.operator.cr-basic"
   				},
   				{

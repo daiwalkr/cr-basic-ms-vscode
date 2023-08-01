@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - GRANITE data loggers.
+- all appropriate operators.
 
 ## 0.0.5 - 2023-08-01
 

@@ -1,0 +1,29 @@
+{
+  "name": "cr-basic-ms-vscode",
+  "displayName": "cr-basic-ms-vscode",
+  "description": "CRBasic Language Support in VSCode",
+  "version": "0.0.6",
+  "publisher": "daiwalkr",
+  "icon": "images/cs_logo.png",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Formatters",
+    "Testing"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "cr-basic",
+      "aliases": ["CRBasic", "cr-basic"],
+      "extensions": [".crb", ".cr1x", ".cr300", ".cr6", ".dld"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "cr-basic",
+      "scopeName": "source.cr-basic",
+      "path": "./syntaxes/cr-basic.tmLanguage.json"
+    }]
+  }
+}
